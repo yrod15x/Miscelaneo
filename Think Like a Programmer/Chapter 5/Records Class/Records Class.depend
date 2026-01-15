@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1768177681 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Records Class/main.cpp
+	<iostream>
+	"Registros.h"
+
+1767826452 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Records Class/src/Registros.cpp
+	"Registros.h"
+
+1767827434 /home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Records Class/include/Registros.h
+
+1768177159 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Records Class/Registros.cpp
+	"Registros.h"
+	<iostream>
+
+1768174875 /home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Records Class/Registros.h
+

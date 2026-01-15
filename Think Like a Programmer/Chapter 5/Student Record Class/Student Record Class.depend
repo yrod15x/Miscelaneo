@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1764810991 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Student Record Class/main.cpp
+	<iostream>
+	"studentCollection.h"
+
+1765141742 /home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Student Record Class/studentCollection.h
+	"studentRecord.h"
+
+1763689087 /home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Student Record Class/studentRecord.h
+	<string>
+
+1763689133 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Student Record Class/studentRecord.cpp
+	"studentRecord.h"
+	<string>
+
