@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1758667708 source:/home/y-rod/Documents/Programming/C++/SFML/Linux Template/main.cpp
+	<SFML/Graphics.hpp>
+
+1758667708 source:/home/y-rod/Documents/Programming/C++/SFML/Template/main.cpp
+	<SFML/Graphics.hpp>
+
+1765060594 source:/home/y-rod/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/Exe 6 - Cardinal - Ordinal/main.cpp
+	<SFML/Graphics.hpp>
+	<ctime>
+	<cstdlib>
+	<iostream>
+	"Bolita.h"
+
+1765060620 source:/home/y-rod/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/Exe 6 - Cardinal - Ordinal/src/Bolita.cpp
+	"Bolita.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<string>
+	<cmath>
+	<cstdlib>
+
+1765060528 /home/y-rod/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/Exe 6 - Cardinal - Ordinal/include/Bolita.h
+	<SFML/Graphics.hpp>
+	<string>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1758667708 source:/home/y-rod/Documents/Programming/C++/SFML/Linux Template/main.cpp
+	<SFML/Graphics.hpp>
+
+1759631547 source:/home/y-rod/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/Exe 5 - Fizz Buzz/main.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	<string>
+
