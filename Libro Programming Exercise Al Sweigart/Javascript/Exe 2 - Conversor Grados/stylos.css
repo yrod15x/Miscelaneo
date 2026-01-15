@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Georgia, "Geneva", sans-serif;
+  font-size: 1dvw;
+  color: #333333;
+  line-height: 1.4;
+}
+* h1, * h2, * h3, * h4, * h5, * h6 {
+  font-family: Verdana, "Geneva", Tahoma, sans-serif;
+}
+* img {
+  max-width: 100%;
+  height: auto;
+}
+* a {
+  text-decoration: none;
+  color: #000;
+}
+
+html {
+  min-height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0px;
+  height: 100dvh;
+  --cardColor: #f48734;
+  --bodyColor: #ff920488;
+  --textColor: #ffdeb3;
+  background-color: var(--bodyColor);
+}
+body .formulario {
+  background-color: var(--cardColor);
+  border-radius: 50%;
+  width: 30dvw;
+  height: 60dvh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+body .formulario h2 {
+  background-color: var(--bodyColor);
+  color: var(--textColor);
+  font-size: 1.59dvw;
+  margin: 5dvh 0 2.5dvh 0;
+  text-align: center;
+  padding: 0.8dvh 0.5dvw;
+  border-radius: 1dvw;
+}
+body .formulario label {
+  background-color: var(--bodyColor);
+  color: var(--textColor);
+  font-size: 1.2dvw;
+  font-weight: bold;
+  padding: 0.8dvh 1dvw;
+  border-radius: 1dvw;
+}
+body .formulario input {
+  background-color: var(--textColor);
+  font-size: 1dvw;
+  max-width: 8dvw;
+  margin-left: 2dvw;
+  color: var(--cardColor);
+  text-align: center;
+  font-weight: bold;
+}
+body .formulario .grados {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.5dvh 0;
+}
+body .formulario .grados .opciones {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1.2dvh 0;
+  min-height: 7dvh;
+  justify-content: space-between;
+  width: 8dvw;
+}
+body .formulario .grados .opciones p {
+  background-color: var(--bodyColor);
+  font-size: 1.1dvw;
+  color: var(--textColor);
+  font-weight: bolder;
+  text-align: center;
+}
+body .formulario .grados .opciones select {
+  color: var(--cardColor);
+  background-color: var(--textColor);
+  font-size: 1dvw;
+  text-align: center;
+  font-weight: bold;
+}
+body .formulario .btn {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+body .formulario .btn button {
+  color: var(--cardColor);
+  margin-bottom: 3dvh;
+  min-width: 11dvw;
+  min-height: 4dvh;
+  font-size: 1.1dvw;
+  font-weight: bold;
+  border-radius: 1dvw;
+}
+body .res {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+body .res p {
+  color: var(--textColor);
+  font-size: 2dvw;
+  margin-left: 1dvw;
+  font-weight: bold;
+}/*# sourceMappingURL=stylos.css.map */

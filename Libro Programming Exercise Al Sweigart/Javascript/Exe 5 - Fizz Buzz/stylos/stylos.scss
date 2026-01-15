@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Mono&family=Special+Elite&display=swap');
+
+*{
+    background-color: #f9f7f1;
+    font-family:  "PT Mono", monospace, Verdana, Geneva, Tahoma, sans-serif;
+    color: #404044;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1dvw;
+    max-width: 100%;
+    line-height: 1.4;
+    list-style: none;
+}
+
+html
+{
+    min-height: 100dvh;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 90dvw;
+    grid-template-rows: 15dvh 75dvh 10dvh;
+    grid-template-areas: "cabecera"
+                          "contenido"
+                          "pie";
+    header
+    {
+        grid-area: cabecera;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        h2
+        {
+            font-size: 3dvw;
+        }
+    }
+    main
+    {
+        grid-area: contenido;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 30dvw;
+        margin: 0px auto;
+        .info
+        {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            width: 20dvw;
+            .dato, .principal
+            {
+                display: flex;
+                flex-flow: row;
+                justify-content: center;
+                width: 15dvw;
+                p, .numbers
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: solid 0.1dvw #000000;
+                    height: 8dvh;
+                    width: 15dvw;
+                    font-size: 1.5dvw;
+                }
+                p.medio
+                {
+                    background-color: #000000;
+                    color: #f9f7f1;
+                    font-size: 2dvw;
+                    width: 18dvw;
+                }
+                .numbers
+                {
+                    background-color: #000000;
+                    color: #f9f7f1;
+                }
+                .medioN
+                {
+                    background-color: #f9f7f1;
+                    color: #000000;
+                    font-size: 2dvw;
+                    width: 18dvw;
+                }
+            }
+            .principal
+            {
+                width: 20dvw;
+                margin-bottom: 2dvh;
+            }
+        }
+        .getNumero button
+        {
+            background-color: #f9f7f1;
+            width: 20dvw;
+            height: 8dvh;
+            font-size: 2dvw;
+            margin: 2dvh 0;
+        }
+        .btns
+        {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 30dvw;
+            button
+            {
+                width: 7.5dvw;
+                height: 6dvh;
+                font-size: 1.2dvw;
+                margin: 2dvh 0;
+            }
+        }
+        #reload
+        {
+            width: 8dvw;
+            background-color: #000000;
+            margin-top: 2dvh;
+        }
+    }
+    footer
+    {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
