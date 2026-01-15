@@ -1,0 +1,6 @@
+Producto    Cantidad(Kg)
+papas   28
+yuca    34
+maiz    45
+frijol  34
+carne 78
