@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1760716955 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Student Statictics/main.cpp
+	<iostream>
+	<cstdlib>
+
