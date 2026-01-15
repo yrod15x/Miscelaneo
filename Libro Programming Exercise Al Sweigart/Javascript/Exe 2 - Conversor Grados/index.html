@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylos.css">
+    <title>Conversor Temperatura</title>
+</head>
+<body>
+    <div class="formulario">
+        <h2>Convertir Temperatura</h2>
+        <form action="#" onsubmit="noCargar();">
+            <label for="temp">Temperatura</label>
+            <input type="number" name="temp" id="temp" placeholder="0" autofocus>
+            <div class="grados">
+                <div class="opciones">
+                    <p>De Grados</p>
+                    <select name="grados_iniciales" id="grados_iniciales">
+                        <option value="Celsius">Celsius</option>
+                        <option value="Farenheit">Farenheit</option>
+                    </select>
+                </div>
+                <div class="opciones">
+                    <p>A Grados</p>
+                    <select name="grados_finales" id="grados_finales">
+                        <option value="Celsius">Celsius</option>
+                        <option value="Farenheit">Farenheit</option>
+                    </select>
+                </div>  
+            </div>
+            <div class="btn">
+                <button onclick="calcular()">Calcular</button>
+            </div>
+        </form>
+        <div class="res">
+            <p class="resultado"> 0 </p>
+            <p class="tipo"> C°</p>
+        </div>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

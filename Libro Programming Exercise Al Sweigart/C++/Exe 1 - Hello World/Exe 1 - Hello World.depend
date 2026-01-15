@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1747323296 source:c:\users\megas\documents\programming\libro programming exercise al sweigart\c++\exe 1 - hello world\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<cctype>
+

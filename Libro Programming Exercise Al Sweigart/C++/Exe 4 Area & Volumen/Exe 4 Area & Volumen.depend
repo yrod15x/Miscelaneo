@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1755959160 source:c:\users\megas\documents\programming\miscelaneo\libro programming exercise al sweigart\c++\exe 4 area & volumen\cube.cpp
+	"cube.h"
+	<iostream>
+
+1755958495 c:\users\megas\documents\programming\miscelaneo\libro programming exercise al sweigart\c++\exe 4 area & volumen\cube.h
+
+1755959120 source:c:\users\megas\documents\programming\miscelaneo\libro programming exercise al sweigart\c++\exe 4 area & volumen\main.cpp
+	<iostream>
+	"cube.h"
+

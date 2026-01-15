@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <p class="cardinal"> {{ numero1 }} </p> <p class="operacion"> {{ operacion }} </p>
+    <form action="verificar" method="post"> 
+        {{ numeroX.hidden_tag() }}
+        <p> {{ numeroX.numeroX(class_="caja") }} </p>
+        <h3 class="resultado">{{ resultado }}</h3>
+        {{ numeroX.enviar() }}
+    </form>
+    <p>{{ correcto }}</p>
+{% endblock %}
+

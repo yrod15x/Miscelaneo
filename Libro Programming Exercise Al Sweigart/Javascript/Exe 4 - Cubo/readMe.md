@@ -1,0 +1,1 @@
+Página web que genera un lado de un cubo y muestra sus estadisticas en pantalla.

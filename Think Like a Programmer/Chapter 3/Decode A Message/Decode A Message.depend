@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1757204860 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Decode A Message/main.cpp
+	<iostream>
+	<limits>
+

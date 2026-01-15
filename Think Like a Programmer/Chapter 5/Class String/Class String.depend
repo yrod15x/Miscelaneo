@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1765848569 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Class String/main.cpp
+	<iostream>
+	"Cadena.h"
+	<string>
+
+1765417824 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Class String/src/Cadena.cpp
+	"Cadena.h"
+	<iostream>
+
+1765417810 /home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Class String/include/Cadena.h
+
+1767130857 /home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Class String/Cadena.h
+	<string>
+
+1765848530 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Class String/Cadena.cpp
+	"Cadena.h"
+	<iostream>
+	<string>
+

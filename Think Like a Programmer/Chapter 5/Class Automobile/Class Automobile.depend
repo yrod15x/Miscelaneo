@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1765377611 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Class Automobile/src/Automibile.cpp
+	"Automibile.h"
+	<iostream>
+	<ctime>
+
+1765377014 /home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Class Automobile/include/Automibile.h
+	<iostream>
+
+1765377629 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 5/Class Automobile/main.cpp
+	<iostream>
+	<string>
+	"Automibile.h"
+

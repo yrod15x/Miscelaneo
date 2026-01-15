@@ -1,0 +1,101 @@
+# ninja log v6
+54	298	7738939716403701	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+54	298	7738939716403701	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+1009	4114	7738640544909731	CMakeFiles/TemperatureConverter.dir/TemperatureConverter_autogen/mocs_compilation.cpp.obj	1ecceb97c45f4e95
+54	298	7738939716403701	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+54	298	7738939716403701	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+299	3963	7738939718860474	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+1015	4151	7738640544960438	CMakeFiles/TemperatureConverter.dir/main.cpp.obj	b9442acd8c93dd22
+3963	4276	7738939755498418	TemperatureConverter.exe	504bd037acf1bf96
+91	491	7738940203955353	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+91	491	7738940203955353	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+91	491	7738940203955353	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+91	491	7738940203955353	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+493	4167	7738940207978661	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+4167	4467	7738940244723774	TemperatureConverter.exe	504bd037acf1bf96
+49	273	7738941776265923	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+49	273	7738941776265923	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+49	273	7738941776265923	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+49	273	7738941776265923	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+275	3850	7738941778567451	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+3850	4175	7738941814320834	TemperatureConverter.exe	504bd037acf1bf96
+59	256	7738955079968484	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+59	256	7738955079968484	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+59	256	7738955079968484	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+59	256	7738955079968484	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+257	3707	7738955082062397	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+3707	4122	7738955116559962	TemperatureConverter.exe	504bd037acf1bf96
+34	213	7738955434183968	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+34	213	7738955434183968	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+34	213	7738955434183968	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+34	213	7738955434183968	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+214	3156	7738955436048205	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+3156	3390	7738955465479827	TemperatureConverter.exe	504bd037acf1bf96
+59	280	7738957873311936	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+59	280	7738957873311936	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+59	280	7738957873311936	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+59	280	7738957873311936	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+282	3420	7738957875565839	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+3421	3664	7738957906957015	TemperatureConverter.exe	504bd037acf1bf96
+52	286	7738961841583837	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+52	286	7738961841583837	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+52	286	7738961841583837	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+52	286	7738961841583837	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+287	3279	7738961843949413	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+3279	3530	7738961873872241	TemperatureConverter.exe	504bd037acf1bf96
+42	237	7738963397963765	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+42	237	7738963397963765	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+42	237	7738963397963765	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+42	237	7738963397963765	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+238	3196	7738963400006334	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+3196	3419	7738963429585055	TemperatureConverter.exe	504bd037acf1bf96
+35	201	7738964763398103	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+35	201	7738964763398103	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+35	201	7738964763398103	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+35	201	7738964763398103	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+202	3020	7738964765066751	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+3020	3287	7738964793252845	TemperatureConverter.exe	504bd037acf1bf96
+19	225	7738969511518660	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+19	225	7738969511518660	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+19	225	7738969511518660	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+19	225	7738969511518660	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+226	3215	7738969513702046	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+3215	3613	7738969543590771	TemperatureConverter.exe	504bd037acf1bf96
+29	213	7738970389576207	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+29	213	7738970389576207	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+29	213	7738970389576207	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+29	213	7738970389576207	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+214	2512	7738970391431840	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+2512	2718	7738970414421866	TemperatureConverter.exe	504bd037acf1bf96
+52	243	7738975074595149	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+52	243	7738975074595149	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+52	243	7738975074595149	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+52	243	7738975074595149	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+244	3094	7738975076661812	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+3094	3478	7738975105170289	TemperatureConverter.exe	504bd037acf1bf96
+36	766	7738976494852973	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+36	766	7738976494852973	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+36	766	7738976494852973	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+36	766	7738976494852973	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+770	3086	7738976495867780	CMakeFiles/TemperatureConverter.dir/main.cpp.obj	b9442acd8c93dd22
+767	3134	7738976495837665	CMakeFiles/TemperatureConverter.dir/TemperatureConverter_autogen/mocs_compilation.cpp.obj	1ecceb97c45f4e95
+774	3567	7738976495897900	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+3567	3786	7738976523841313	TemperatureConverter.exe	504bd037acf1bf96
+35	203	7738977209598756	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+35	203	7738977209598756	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+35	203	7738977209598756	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+35	203	7738977209598756	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+204	2926	7738977211285539	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+2926	3163	7738977238516076	TemperatureConverter.exe	504bd037acf1bf96
+34	215	7738977406541346	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+34	215	7738977406541346	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+34	215	7738977406541346	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+34	215	7738977406541346	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+216	2959	7738977408399190	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+2959	3173	7738977435835292	TemperatureConverter.exe	504bd037acf1bf96
+36	204	7738977670775683	TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+36	204	7738977670775683	TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+36	204	7738977670775683	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/timestamp	5a44de587b21afcf
+36	204	7738977670775683	C:/Users/megas/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/TemperatureConverter/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/TemperatureConverter_autogen/mocs_compilation.cpp	5a44de587b21afcf
+205	2843	7738977672486936	CMakeFiles/TemperatureConverter.dir/mainwindow.cpp.obj	e54e2e66557a84b
+2843	3082	7738977698865512	TemperatureConverter.exe	504bd037acf1bf96

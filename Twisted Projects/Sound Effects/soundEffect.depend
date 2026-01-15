@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1758667708 source:/home/y-rod/Documents/Programming/C++/SFML/Linux Template/main.cpp
+	<SFML/Graphics.hpp>
+
+1758667708 source:/home/y-rod/Documents/Programming/C++/SFML/Template/main.cpp
+	<SFML/Graphics.hpp>
+
+1768328807 source:/home/y-rod/Documents/Programming/Miscelaneo/Twisted Projects/Sound Effects/main.cpp
+	<SFML/Graphics.hpp>
+	"Boton.h"
+
+1768234535 /home/y-rod/Documents/Programming/Miscelaneo/Twisted Projects/Sound Effects/include/Boton.h
+	<SFML/Graphics.hpp>
+
+1768234864 source:/home/y-rod/Documents/Programming/Miscelaneo/Twisted Projects/Sound Effects/src/Boton.cpp
+	"Boton.h"
+	<SFML/Graphics.hpp>
+
+1768328873 /home/y-rod/Documents/Programming/Miscelaneo/Twisted Projects/Sound Effects/Boton.h
+	<SFML/Graphics.hpp>
+
+1768328722 source:/home/y-rod/Documents/Programming/Miscelaneo/Twisted Projects/Sound Effects/Boton.cpp
+	"Boton.h"
+	<iostream>
+	<SFML/Graphics.hpp>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1759771800 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Sort Structs/main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+
