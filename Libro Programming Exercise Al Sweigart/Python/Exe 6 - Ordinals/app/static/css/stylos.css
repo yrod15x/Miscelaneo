@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Georgia, "Geneva", sans-serif;
+  font-size: 1dvw;
+  color: #333333;
+  line-height: 1.4;
+  list-style: none;
+}
+* h1, * h2, * h3, * h4, * h5, * h6 {
+  font-family: Verdana, "Geneva", Tahoma, sans-serif;
+}
+body{
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99dvh;
+    width: 100%;
+}
+.contenido
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(131, 247, 129, 0.719);
+    height: 45dvh;
+    width: 25dvw;
+    border-radius: 1dvw;
+}
+h2
+{
+  font-size: 1.4dvw;
+  margin-top: 1dvh;
+}
+.cardinal, .operacion
+{
+  font-size: 3dvw;
+  font-weight: bolder;
+}
+.operacion
+{
+  margin-top: -3dvh;
+}
+form
+{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.caja
+{
+  width: 10dvw;
+  height: 5dvh;
+  text-align: center;
+  font-size: 1.5dvw;
+  margin-top: -3dvh;
+  margin-bottom: 2dvh;
+}
+.resultado
+{
+  font-size: 1.5dvw;
+  text-align: center;
+  margin-bottom: 1.5dvh;
+}
+.boton
+{
+  width: 10dvw;
+  height: 5dvh;
+}
