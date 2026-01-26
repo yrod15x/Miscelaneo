@@ -48,6 +48,8 @@
 			<Add library="sfml-system" />
 			<Add directory="/home/y-rod/Documents/Programming/C++/SFML/SFML-3.0.0/lib" />
 		</Linker>
+		<Unit filename="Boton.cpp" />
+		<Unit filename="Boton.h" />
 		<Unit filename="cb.bmp" />
 		<Unit filename="main.cpp" />
 		<Extensions>

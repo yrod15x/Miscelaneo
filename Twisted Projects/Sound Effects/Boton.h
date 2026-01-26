@@ -7,9 +7,12 @@ class Boton
 {
     public:
         Boton();
-        Boton(sf::Vector2f tamano, sf::Vector2f posicion, sf::Color colorFondo);
+        Boton(sf::Vector2f tamano, sf::Vector2f posicion, sf::Color colorFondo,
+              std::string nombre);
         ~Boton();
         void mostrar(sf::RenderWindow &ventana);
+        bool hayClick(sf::Vector2i mousePos);
+        std::string getNombre();
 
     private:
         sf::RectangleShape _boton;
@@ -18,7 +21,6 @@ class Boton
         sf::Vector2f _tamano;
         int _tamCaracter;
         std::string _nombre;
-        void _ponerTexto();
 };
 
 #endif // BOTON_H

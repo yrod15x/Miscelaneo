@@ -5,9 +5,14 @@
 1758667708 source:/home/y-rod/Documents/Programming/C++/SFML/Template/main.cpp
 	<SFML/Graphics.hpp>
 
-1768328807 source:/home/y-rod/Documents/Programming/Miscelaneo/Twisted Projects/Sound Effects/main.cpp
+1769375832 source:/home/y-rod/Documents/Programming/Miscelaneo/Twisted Projects/Sound Effects/main.cpp
 	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
 	"Boton.h"
+	<map>
+	<vector>
+	<string>
+	<iostream>
 
 1768234535 /home/y-rod/Documents/Programming/Miscelaneo/Twisted Projects/Sound Effects/include/Boton.h
 	<SFML/Graphics.hpp>
@@ -16,11 +21,15 @@
 	"Boton.h"
 	<SFML/Graphics.hpp>
 
-1768328873 /home/y-rod/Documents/Programming/Miscelaneo/Twisted Projects/Sound Effects/Boton.h
+1769375333 /home/y-rod/Documents/Programming/Miscelaneo/Twisted Projects/Sound Effects/Boton.h
 	<SFML/Graphics.hpp>
+	<string>
 
-1768328722 source:/home/y-rod/Documents/Programming/Miscelaneo/Twisted Projects/Sound Effects/Boton.cpp
+1769375363 source:/home/y-rod/Documents/Programming/Miscelaneo/Twisted Projects/Sound Effects/Boton.cpp
 	"Boton.h"
 	<iostream>
 	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<string>
+	<cmath>
 
