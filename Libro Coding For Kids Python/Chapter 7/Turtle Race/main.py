@@ -2,12 +2,14 @@
 para ver cuál llega primero al final de la pantalla. (meta)"""
 
 import pygame, sys
+from random import randint
 
 pygame.init()
 
 FPS = 60
 fps_clock = pygame.time.Clock()
 WIDTH, HEIGHT = 2400, 1550
+game_over = False
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Turtle Race")
@@ -23,14 +25,12 @@ for i in range(4):
     racer = []
     for i in range(24):
         racer.append(pygame.image.load(f"w{i}.png").convert_alpha())
-    pos_racers.append((pos.x, pos.y))
+    pos_racers.append([pos.x, pos.y])
     racers.append(racer)
     pos.y += 400
 
-
 #Controla el indice de la imagen dentro de la lista (racer)
 frame_index = 0
-
 
 #Pistas
 color_pista = (175, 98, 98)
@@ -53,15 +53,21 @@ while True:
             sys.exit()
     #Cambia el indice para ir cambiando la imagen cada cuadro. 
     #Cuando llega al tamano de la lista se reinicia (0)
-    frame_index = (frame_index + 1) % len(racer)
+    if not game_over:
+        frame_index = (frame_index + 1) % len(racer)
     
     for pista in pistas:
         pygame.draw.rect(screen, color_pista, pista)
     for i in range(4):
-        screen.blit(racers[i][frame_index], pos_racers[i])
+        if not game_over:
+            screen.blit(racers[i][frame_index], pos_racers[i])
+            pos_racers[i][0] += randint(1, 10)
+            if pos_racers[i][0] >= WIDTH - (racers[i][frame_index].get_width() 
+            - (racers[i][frame_index].get_width() // 4)):
+                game_over = True
+        else:
+            screen.blit(racers[i][0], pos_racers[i])
 
     pygame.display.update()
-
-    #pos_racer.x += 2
 
     fps_clock.tick(FPS)
