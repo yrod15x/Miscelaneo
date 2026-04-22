@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block body %}
+        {% for cols in tabla_ascii %}   
+            {% for fila in cols %}
+                    {% for key, value in fila.items() %}
+                    <div class="datos">
+                        <p class="llave"> {{ key }} </p>
+                        <p class="valor"> {{ value }} </p>
+                    </div>  
+                    {% endfor %}
+            {% endfor %}
+        {% endfor %}
+{% endblock %}

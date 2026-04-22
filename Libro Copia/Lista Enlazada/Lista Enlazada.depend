@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1770143325 source:/home/y-rod/Documents/Programming/Miscelaneo/Libro Copia/Lista Enlazada/main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

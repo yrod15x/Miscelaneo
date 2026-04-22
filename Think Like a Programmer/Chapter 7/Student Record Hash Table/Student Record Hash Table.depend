@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1773621621 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Record Hash Table/studentRecord.cpp
+	"studentRecord.h"
+	<string>
+
+1773621523 /home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Record Hash Table/studentRecord.h
+	<string>
+
+1773929959 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Record Hash Table/main.cpp
+	<iostream>
+	"studentRecord.h"
+	<cstdlib>
+	<ctime>
+	<string>
+

@@ -17,7 +17,7 @@ int sumaPositivos(int numeros[], int tamano)
 int recSumaPositivos(int numeros[], int tamano)
 {
     if(tamano == 0) return 0;
-    int positivo = (numeros[tamano - 1] > 0) ? positivo = numeros[tamano - 1] : 0;
+    int positivo = (numeros[tamano - 1] > 0) ? numeros[tamano - 1] : 0;
     return positivo + recSumaPositivos(numeros, tamano - 1);
 }
 

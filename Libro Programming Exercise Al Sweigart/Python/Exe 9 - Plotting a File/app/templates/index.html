@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <img src="{{ url_for('static', filename='/images/imagen.png')}}" 
+    alt="Gráfica de una función" {% if not visto %} hidden {% endif %}">
+    <form action="/graficar" method="post">
+        <button type="submit">Graficar</button>
+    </form>
+{% endblock %}

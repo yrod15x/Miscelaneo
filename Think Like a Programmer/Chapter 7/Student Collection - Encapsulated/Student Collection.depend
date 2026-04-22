@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1772475497 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection/main.cpp
+	<iostream>
+	"studentCollection.h"
+	"studentRecord.h"
+
+1772475424 /home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection/include/studentCollection.h
+	"studentRecord.h"
+
+1772475477 /home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection/include/studentRecord.h
+	<string>
+
+1772475439 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection/src/studentCollection.cpp
+	"studentCollection.h"
+	"studentRecord.h"
+
+1772475494 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection/src/studentRecord.cpp
+	"studentRecord.h"
+	<string>
+
+1772657377 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection - Encapsulated/main.cpp
+	<iostream>
+	"studentCollection.h"
+	"studentRecord.h"
+
+1772657452 /home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection - Encapsulated/include/studentCollection.h
+	"studentRecord.h"
+
+1772475477 /home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection - Encapsulated/include/studentRecord.h
+	<string>
+
+1772657312 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection - Encapsulated/src/studentCollection.cpp
+	"studentCollection.h"
+	"studentRecord.h"
+	<iostream>
+
+1772475494 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection - Encapsulated/src/studentRecord.cpp
+	"studentRecord.h"
+	<string>
+

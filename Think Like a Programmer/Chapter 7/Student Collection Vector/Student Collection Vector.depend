@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1773157936 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection Vector/main.cpp
+	<iostream>
+	"studentCollection.h"
+
+1773016644 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection Vector/src/studentCollection.cpp
+	"studentCollection.h"
+
+1773014729 /home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection Vector/include/studentCollection.h
+	<string>
+	<vector>
+
+1773073499 /home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection Vector/studentCollection.h
+	<string>
+	<vector>
+
+1773157798 source:/home/y-rod/Documents/Programming/Miscelaneo/Think Like a Programmer/Chapter 7/Student Collection Vector/studentCollection.cpp
+	"studentCollection.h"
+	"iostream"
+	<algorithm>
+

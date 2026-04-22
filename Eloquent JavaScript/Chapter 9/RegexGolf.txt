@@ -1,0 +1,13 @@
+cat car => /.a./gm
+
+pop prop => /pr?op/gm
+
+ferret ferry ferrari => /ferr\w{0,3}/gm
+
+concious serious => /\w+ious/gm
+
+ ,  :  .  ; => /\s[.,:;]/gm
+
+parenting oftalmologist => /\w{6,}/gm
+
+words without letter e oe E => /\b[^eE]+\b/gm

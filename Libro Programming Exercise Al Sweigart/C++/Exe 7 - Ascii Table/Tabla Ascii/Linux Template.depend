@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1758667708 source:/home/y-rod/Documents/Programming/C++/SFML/Linux Template/main.cpp
+	<SFML/Graphics.hpp>
+
+1758667708 source:/home/y-rod/Documents/Programming/C++/SFML/Template/main.cpp
+	<SFML/Graphics.hpp>
+
+1774143760 source:/home/y-rod/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/Exe 7 - Ascii Table/Tabla Ascii/main.cpp
+	<SFML/Graphics.hpp>
+	"Tecla.h"
+	<iostream>
+
+1774142390 /home/y-rod/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/Exe 7 - Ascii Table/Tabla Ascii/include/Tecla.h
+	<SFML/Graphics.hpp>
+	<string>
+
+1774142390 source:/home/y-rod/Documents/Programming/Miscelaneo/Libro Programming Exercise Al Sweigart/C++/Exe 7 - Ascii Table/Tabla Ascii/src/Tecla.cpp
+	"Tecla.h"
+	<SFML/Graphics.hpp>
+	<string>
+	<iostream>
+

@@ -1,0 +1,95 @@
+*{
+    
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Georgia, 'Geneva', sans-serif;
+    font-size: 1dvw;
+    color: #333333;
+    line-height: 1.4;
+    list-style: none;
+    h1, h2, h3, h4, h5, h6
+    {
+        font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    }
+    img
+    {
+        max-width: 100%;
+        height: auto;
+    }   
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+}
+html
+{
+    min-height: 100dvh;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #42002e;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    header, footer
+    {
+        height: 10dvh;
+        background-color: #590054;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1
+        {
+            color: #fff;
+            font-size: 2dvw;
+        }
+    }
+    main
+    {
+        height: 80dvh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow:  column nowrap;
+        gap: 10dvh;
+        textarea
+        {
+            width: 40dvw;
+            height: 15dvh;
+            font-size: 1.2dvw;
+        }
+        .textoAscii
+        {
+            width: 40dvw;
+            max-height: 20dvh;
+            font-size: 1.3dw;
+            color: #fff;
+            text-align: center;
+        }
+    }
+    footer
+    {
+        p
+        {
+            font-size: 1dvw;
+            color: #fff;
+        }
+    }
+}
+
+@media only screen and (min-width: 640px) 
+{
+
+}
+
+@media only screen and (min-width: 1024px) 
+{
+    
+}

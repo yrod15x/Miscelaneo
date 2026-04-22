@@ -1,0 +1,49 @@
+body
+{
+    min-height: 100dvh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    main
+    {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        width: 65dvw;
+        .datos
+        {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: center;
+            border: 1px solid black;
+            height: 3.5dvh;
+            width: 5dvw;
+            background: linear-gradient(
+                to right,
+                #050086 0%,
+                #050086 50%,
+                #bff0f8 50%,
+                #bff0f8 100%,
+            );
+            p
+            {
+                font-size: 1dvw;
+            }
+            .llave
+            {
+                color: #ffffff;
+            }
+        }
+    }
+    footer
+    {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 1dvw;
+    }
+}
