@@ -42,13 +42,13 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-std=c++17" />
-			<Add directory="/home/y-rod/Documents/Programming/C++/SFML/SFML-3.0.0/include/SFML" />
+			<Add directory="/home/y-rod/SFML-2.6.2/include" />
 		</Compiler>
 		<Linker>
 			<Add library="sfml-graphics" />
 			<Add library="sfml-window" />
 			<Add library="sfml-system" />
-			<Add directory="/home/y-rod/Documents/Programming/C++/SFML/SFML-3.0.0/lib" />
+			<Add directory="/home/y-rod/SFML-2.6.2/lib" />
 		</Linker>
 		<Unit filename="cb.bmp" />
 		<Unit filename="include/Bolita.h" />

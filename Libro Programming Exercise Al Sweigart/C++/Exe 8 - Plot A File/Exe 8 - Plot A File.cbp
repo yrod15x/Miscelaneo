@@ -2,19 +2,17 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Linux Template" />
+		<Option title="Exe 8 - Plot A File" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Linux Template" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Exe 8 - Plot A File" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
-					<Add option="-std=c++17" />
 					<Add option="-g" />
-					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add library="sfml-graphics" />
@@ -23,13 +21,12 @@
 				</Linker>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Linux Template" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Exe 8 - Plot A File" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="0" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -41,19 +38,13 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-			<Add option="-std=c++17" />
-			<Add directory="/home/y-rod/SFML-2.6.2/include" />
+			<Add directory="/home/y-rod/SFML-3.1.0/include" />
 		</Compiler>
 		<Linker>
-			<Add library="sfml-graphics" />
-			<Add library="sfml-window" />
-			<Add library="sfml-system" />
-			<Add directory="/home/y-rod/SFML-2.6.2/lib" />
+			<Add directory="/home/y-rod/SFML-3.1.0/lib" />
 		</Linker>
 		<Unit filename="cb.bmp" />
-		<Unit filename="include/Tecla.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Tecla.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
