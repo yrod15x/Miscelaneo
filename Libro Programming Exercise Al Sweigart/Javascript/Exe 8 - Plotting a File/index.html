@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylos.css">
+    <title>Plotting a File</title>
+</head>
+<body>
+    <header>
+        <h1>Estadísticas De Un texto</h1>
+    </header>
+    <main>
+        <div class="datos">
+            <div class="text-container">
+                <p class="texto"></p>
+            </div>
+            <div class="info-cont">
+                <p class="info">Número de palabras: <span class="num-palabras"></span></p>
+            <p class="info">Palabra más frecuente es <span class="mas-frecuente"></span> 
+               con <span class="mas-apariciones"></span> apariciones.</p>
+            <p class="info">Palabra menos frecuente es <span class="menos-frecuente"></span> 
+                con <span class="menos-apariciones"></span> apariciones.</p>
+            </div>
+            
+        </div>
+        <form>
+            <input type="file" name="archivo" id="archivo">
+            <button type="submit">Analizar</button>
+        </form>
+        
+    </main>
+    <footer>
+        <p>Kandas Technologies</p>
+        <p class="fecha"></p>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>

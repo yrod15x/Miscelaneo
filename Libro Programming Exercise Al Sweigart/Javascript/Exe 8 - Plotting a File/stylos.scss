@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+*{
+    
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Georgia, 'Geneva', sans-serif;
+    font-size: 1dvw;
+    color: #333333;
+    line-height: 1.4;
+    list-style: none;
+    h1, h2, h3, h4, h5, h6
+    {
+        font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    }
+    img
+    {
+        max-width: 100%;
+        height: auto;
+    }   
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+html
+{
+    min-height: 100dvh;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100dvh;
+    width: 100dvw;   
+    header
+    {
+        height: 10dvh;
+        width: 100dvw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e63946;
+        h1
+        {
+            font-size: 2.5dvw;
+            color: #f1faee;
+        }
+    }    
+    main
+    {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 90dvh;
+        width: 100dvw;
+        background-color: #f1faee;
+        .datos
+        {         
+            visibility: hidden;
+            width: 90dvw;
+            .text-container
+            {
+                margin-top: 5dvh;
+                .texto
+                {
+                    font-size: 1dvw;
+                    text-align: justify;
+                    background-color: #a8dadc;
+                    overflow: auto;
+                    height: 60dvh;
+                    padding: 1dvh 1dvw;
+                    margin-bottom: 1dvh;
+                }
+            }
+            .info-cont
+            {
+                background-color: #a8dadc;
+                text-align: center;
+                p
+                {
+                    padding: 0.3vh 0;
+                    font-size: 1.1dvw;
+                    span
+                    {
+                        color: #e63946;
+                        font-size: 1.5dvw;
+                        padding: 0 0.2dvw;
+                    }
+                } 
+            }                   
+        }
+        form
+        {
+            width: 25dvw;
+            margin: 1dvw;
+            background-color: #a8dadc;
+            display: flex;
+            height: 15dvh;
+            justify-content: center;
+            align-items: center;
+            font-size: 1dvw;
+        }        
+    }
+    footer
+    {
+        height: 5dvh;
+        background-color: #e63946;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100dvw;
+        p
+        {
+            color: #f1faee;
+            font-size: 0.8dvw;
+            font-weight: bold;
+        }
+        
+    }
+}        

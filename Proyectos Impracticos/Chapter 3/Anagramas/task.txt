@@ -1,0 +1,20 @@
+stop
+tsop
+tosp
+tops
+
+tsop
+stop
+sotp
+sopt
+
+for index, vali in enumerate(palabra):
+    pal_temp: str = ""
+    for jndex, valj in enumerate(palabra):
+        if index == jndex:
+            print(activa, end="")
+            if index > 0 and jndex < len(palabra):
+                pal_temp = activa 
+        else:
+            print(valj, end="")          
+    print() 
