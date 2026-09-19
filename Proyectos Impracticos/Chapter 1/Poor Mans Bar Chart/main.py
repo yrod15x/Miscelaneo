@@ -4,6 +4,9 @@ llaves y cada valor es una lista, del mismo carácter repetido, de tamaño
 igual a al número de veces que aparece la letra en una cadena de texto 
 ingresada por el usuario."""
 
+from googletrans import Translator
+import asyncio 
+
 def pedir_texto()-> str:
     """Devuelve una cadena de texto verificada pedida al usario
         Returns: 
@@ -43,5 +46,33 @@ def mostrar_grafico(grafico: dict[str:list[str]])-> None:
             print(val, end =" ")
         print()
 
-texto: str = pedir_texto()
+def pedir_idioma()-> str:
+    """Pide el idioma del texto entre algunas posibilidades
+       Return:
+            str: la abreviación del idioma.
+    """
+    idiomas: list[str] = ["en", "es"]
+    mensaje: str = "Choose and type the abbreviation for the text to print >> "
+    while True:
+        print(*idiomas)
+        idioma: str = input(mensaje)
+        if idioma in idiomas:
+            return idioma
+        print("Incorrect Language")     
+#Se debe usar programación asíncrona para que funcione el traductor
+async def traducir(texto_a_traducir: str):
+    """Traduce un texto a otro idioma.
+        Arguments:
+            str: Tetxto a traducir.
+        Return:
+            str: Texto traducido.
+    """
+    idioma: str = pedir_idioma()
+    traductor = Translator()    
+    texto_traducido: str = await traductor.translate(texto_a_traducir, dest=idioma)
+    print(texto_traducido)
+    return texto_traducido.text
+
+
+texto: str = asyncio.run(traducir(pedir_texto()))
 mostrar_grafico(crear_grafico(texto))

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1786918458 source:/home/y-rod/Documents/Programming/Miscelaneo/Nature of Code/SFML/Random Walker Big Steps/main.cpp
+	<SFML/Graphics.hpp>
+	"Walker.h"
+
+1786920794 source:/home/y-rod/Documents/Programming/Miscelaneo/Nature of Code/SFML/Random Walker Big Steps/src/Walker.cpp
+	"Walker.h"
+	<SFML/Graphics.hpp>
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<random>
+
+1786917497 /home/y-rod/Documents/Programming/Miscelaneo/Nature of Code/SFML/Random Walker Big Steps/include/Walker.h
+	<SFML/Graphics.hpp>
+

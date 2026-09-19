@@ -1,0 +1,88 @@
+*{
+    
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Georgia, 'Geneva', sans-serif;
+    font-size: 1dvw;
+    color: #ffffff;
+    line-height: 1.4;
+    list-style: none;
+    h1, h2, h3, h4, h5, h6
+    {
+        font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    }
+    img
+    {
+        max-width: 100%;
+        height: auto;
+    }   
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+html
+{
+    min-height: 100dvh;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 99dvh;
+    gap: 3dvh;
+    .tablero{
+        display: flex;
+        flex-flow: row  wrap;
+        justify-content: center;
+        align-items: center;
+        width: 64dvw;       
+    }
+    .celdas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3dvw;
+        font-size: bolder;
+        width: 8dvw;
+        height: 10dvh;
+        border: 0.1dvw solid black;
+    }
+    .formulario{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center; 
+        justify-content: center;       
+        width: 18dvw;
+        
+        input{
+            width: 10dvw;
+            color: #000;
+        }
+        .datos{
+           display: flex;
+           flex-flow: row nowrap;
+           align-items: center;
+           justify-content: space-between;
+           
+           width: 10dvw;
+           background-color: #000;
+           p{
+                font-size: 1.2dvw;
+           }
+           input{
+             width: 5dvw;
+             text-align: center;
+           }
+        }
+    }
+}
+

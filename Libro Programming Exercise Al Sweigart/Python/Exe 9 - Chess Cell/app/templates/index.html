@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+{% block content %}
+    <div class="tablero">
+        {% for r in range(8) %}
+            {% for c in range(8) %}                
+                <div class="celdas" style="background-color: {{ board[r][c] }};
+                 color: {{ board[r][c] }};">
+                    {% if row == r and column == c  %} 
+                        <p style="color: {{ cell_color }};">{{ board[r][c] }}</p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        {% endfor %}
+    </div>
+    <div class="formulario">
+        <form action="find_color" method="post" novalidate>
+            {{ form.hidden_tag() }}
+            <div class="datos">
+                <p> {{ form.row.label }} </p>
+                <p> {{ form.row(size=2) }} </p>
+            </div>
+            <div class="datos">   
+                <p> {{ form.column.label }} </p>
+                <p> {{ form.column(size=2) }} </p>
+            </div>
+            <p>
+                {{ form.boton() }}
+            </p>            
+        </form>
+    </div>
+    
+{% endblock %}
