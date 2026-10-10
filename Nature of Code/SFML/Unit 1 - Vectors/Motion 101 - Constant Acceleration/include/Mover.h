@@ -15,7 +15,7 @@ class Mover
         sf::Vector2f _position;
         sf::Vector2f _velocity;
         sf::Vector2f _acceleration;
-        int _topSpeed = 0;
+        float _topSpeed = 0;
         void _limit();
 };
 

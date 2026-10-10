@@ -1,0 +1,56 @@
+/* Clase que genera una plantilla para que un objeto se mueva por pantalla
+usando vectores con una velocidad influida por una aceleración aleatoria.*/
+
+class Mover{
+    constructor(){
+        this.position = createVector(random(width), random(height));
+        this.velocity = createVector(0, 0);
+        this.acceleration = createVector(0, 0);
+        this.topSpeed = 10;
+        this.tx = 0;
+        this.ty = 10000;
+    }
+    update(){
+        //p5.Vector.random2D() Crea un vector noramilzado con dirección y magnitud 1
+        this.acceleration.x = map(noise(this.tx), 0, 1, -2, 2);
+        this.acceleration.y = map(noise(this.ty), 0, 1, -2, 2)
+        //Se puede escalar el vector para que sea más aleatorio
+        this.acceleration.mult(random(2));
+        this.position.add(this.velocity);
+        this.velocity.limit(this.topSpeed);
+        this.velocity.add(this.acceleration);
+        this.tx += 0.01;
+        this.ty += 0.01;
+    }
+    show(){
+        stroke(0);
+        strokeWeight(2);
+        fill(197);
+        circle(this.position.x, this.position.y, 48);
+    }
+    checkEdges(){
+        //Si se sale de algún borde aparece en el opuesto
+        if(this.position.x > width){
+            this.position.x = 0;
+        }
+        else if(this.position.x < 0){
+            this.position.x = width;
+        }
+        if(this.position.y > height){
+            this.position.y = 0;
+        }
+        else if(this.position.y < 0){
+            this.position.y = height;
+        }   
+    }
+    /*Permite que la velocidad no supere un valor demasiado grande al ir
+    agregando la acceleración */
+    limit(max){
+        if(this.velocity.mag() > this.topSpeed)
+        {
+            //Pone la magnitud en 1, luego lo multiplica por el valor escalar
+            this.velocity.normalize();
+            this.velocity.mult(max);
+        }
+    }
+}

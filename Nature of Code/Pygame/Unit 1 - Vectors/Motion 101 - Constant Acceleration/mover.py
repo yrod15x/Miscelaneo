@@ -1,5 +1,5 @@
 """Clase que genera una plantilla para que un objeto se mueva por pantalla
-usando vectores. """
+usando vectores con una velocidad constante. """
 
 from random import randint
 import pygame

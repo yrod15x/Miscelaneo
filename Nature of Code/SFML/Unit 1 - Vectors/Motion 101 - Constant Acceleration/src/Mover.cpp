@@ -1,3 +1,6 @@
+/* Clase que genera una plantilla para que un objeto se mueva por pantalla
+usando vectores con una velocidad constante.*/
+
 #include "Mover.h"
 #include <SFML/Graphics.hpp>
 #include <random>
@@ -25,12 +28,14 @@ Mover::Mover(unsigned int width,unsigned int height)
     _acceleration = sf::Vector2f{-0.001f, 0.01f};
     _topSpeed = 10;
 }
-
+/*Permite que la velocidad no supere un valor demasiado grande al ir
+agregando la acceleración */
 void Mover::_limit()
 {
     if(_velocity.length() > _topSpeed)
     {
-
+        //Multiplica la velocidad normalizada (1) por el tope
+        _velocity = _velocity.normalized() * _topSpeed;
     }
 }
 
@@ -41,6 +46,8 @@ Mover::~Mover()
 
 void Mover::update()
 {
+    _velocity += _acceleration;
+    _limit();
     _position += _velocity;
 }
 
